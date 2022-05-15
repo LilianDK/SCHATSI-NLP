@@ -1,0 +1,957 @@
+Recreating schatsi-ml-r_schatsi_machine_learning_R_1 ... 
+Recreating schatsi-ml-r_schatsi_machine_learning_R_1 ... done
+Attaching to schatsi-ml-r_schatsi_machine_learning_R_1
+[36mschatsi_machine_learning_R_1  |[0m [1] "LOGGING ROW 002: Loading dependencies."
+[36mschatsi_machine_learning_R_1  |[0m [1] "LOGGING Start loading libraries."
+[36mschatsi_machine_learning_R_1  |[0m 
+[36mschatsi_machine_learning_R_1  |[0m Attaching package: ‘dplyr’
+[36mschatsi_machine_learning_R_1  |[0m 
+[36mschatsi_machine_learning_R_1  |[0m The following objects are masked from ‘package:stats’:
+[36mschatsi_machine_learning_R_1  |[0m 
+[36mschatsi_machine_learning_R_1  |[0m     filter, lag
+[36mschatsi_machine_learning_R_1  |[0m 
+[36mschatsi_machine_learning_R_1  |[0m The following objects are masked from ‘package:base’:
+[36mschatsi_machine_learning_R_1  |[0m 
+[36mschatsi_machine_learning_R_1  |[0m     intersect, setdiff, setequal, union
+[36mschatsi_machine_learning_R_1  |[0m 
+[36mschatsi_machine_learning_R_1  |[0m Loading required package: NLP
+[36mschatsi_machine_learning_R_1  |[0m 
+[36mschatsi_machine_learning_R_1  |[0m Attaching package: ‘ggplot2’
+[36mschatsi_machine_learning_R_1  |[0m 
+[36mschatsi_machine_learning_R_1  |[0m The following object is masked from ‘package:NLP’:
+[36mschatsi_machine_learning_R_1  |[0m 
+[36mschatsi_machine_learning_R_1  |[0m     annotate
+[36mschatsi_machine_learning_R_1  |[0m 
+[36mschatsi_machine_learning_R_1  |[0m [1] "LOGGING End loading libraries."
+[36mschatsi_machine_learning_R_1  |[0m [1] "LOGGING ROW 012: Start loading variables."
+[36mschatsi_machine_learning_R_1  |[0m [1] "LOGGING ROW 016: {string}"
+[36mschatsi_machine_learning_R_1  |[0m LOGGING ROW 008 WORKDIR = /
+[36mschatsi_machine_learning_R_1  |[0m LOGGING ROW 010 LIST OF ROOT FILES: bin, COPYING, etc, lib, library, modules, site-library, SVN-REVISION
+[36mschatsi_machine_learning_R_1  |[0m output/
+[36mschatsi_machine_learning_R_1  |[0m [1] "LOGGING ROW 029: The file exists"
+[36mschatsi_machine_learning_R_1  |[0m LOGGING ROW 50 2022-05-12 22:31:29: Loading input file. -> input/schatsi_terms.csv
+[36mschatsi_machine_learning_R_1  |[0m LOGGING ROW 53 2022-05-12 22:31:34: First row of loaded file. -> A_Survey_of_Multi-Agent_Trust_Management_Systems.pdf, received, 15
+[36mschatsi_machine_learning_R_1  |[0m                                                                                                                                filename
+[36mschatsi_machine_learning_R_1  |[0m 1                                                                                  A_Survey_of_Multi-Agent_Trust_Management_Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 2                                                                                  A_Survey_of_Multi-Agent_Trust_Management_Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 3                                                                                  A_Survey_of_Multi-Agent_Trust_Management_Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 4                                                                                  A_Survey_of_Multi-Agent_Trust_Management_Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 5                                                                                  A_Survey_of_Multi-Agent_Trust_Management_Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 6                                                                                  A_Survey_of_Multi-Agent_Trust_Management_Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 7                                                                                  A_Survey_of_Multi-Agent_Trust_Management_Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 8                                                                                  A_Survey_of_Multi-Agent_Trust_Management_Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 9                                                                                  A_Survey_of_Multi-Agent_Trust_Management_Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 10                                                                                 A_Survey_of_Multi-Agent_Trust_Management_Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 11                                                                                 A_Survey_of_Multi-Agent_Trust_Management_Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 12                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 13                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 14                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 15                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 16                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 17                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 18                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 19                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 20                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 21                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 22                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 23                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 24                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 25                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 26                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 27                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 28                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 29                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 30                                          Seeber_et_al_(2021)_Machines as teammates A research agenda on AI in team collaboration.pdf
+[36mschatsi_machine_learning_R_1  |[0m 31                                                                         Seyedi-Fotohi2020_Article_NIASHPTANovelIntelligentAgent-.pdf
+[36mschatsi_machine_learning_R_1  |[0m 32                                                                         Seyedi-Fotohi2020_Article_NIASHPTANovelIntelligentAgent-.pdf
+[36mschatsi_machine_learning_R_1  |[0m 33                                                                         Seyedi-Fotohi2020_Article_NIASHPTANovelIntelligentAgent-.pdf
+[36mschatsi_machine_learning_R_1  |[0m 34                                                                         Seyedi-Fotohi2020_Article_NIASHPTANovelIntelligentAgent-.pdf
+[36mschatsi_machine_learning_R_1  |[0m 35                                                                         Seyedi-Fotohi2020_Article_NIASHPTANovelIntelligentAgent-.pdf
+[36mschatsi_machine_learning_R_1  |[0m 36                                                                         Seyedi-Fotohi2020_Article_NIASHPTANovelIntelligentAgent-.pdf
+[36mschatsi_machine_learning_R_1  |[0m 37                                                                         Seyedi-Fotohi2020_Article_NIASHPTANovelIntelligentAgent-.pdf
+[36mschatsi_machine_learning_R_1  |[0m 38                                                                         Seyedi-Fotohi2020_Article_NIASHPTANovelIntelligentAgent-.pdf
+[36mschatsi_machine_learning_R_1  |[0m 39                                                                                      Shin_The effects of explainability and_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 40                                                                                      Shin_The effects of explainability and_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 41                                                                                      Shin_The effects of explainability and_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 42                                                                                      Shin_The effects of explainability and_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 43                                                                                      Shin_The effects of explainability and_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 44                                                                                      Shin_The effects of explainability and_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 45                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age of artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 46                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age of artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 47                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age of artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 48                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age of artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 49                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age of artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 50                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age of artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 51                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age of artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 52                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age of artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 53                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age og artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 54                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age og artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 55                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age og artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 56                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age og artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 57                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age og artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 58                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age og artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 59                            Shrestha_et_al_(2019)_Organizational decision-making structures in the age og artificial intelligence.pdf
+[36mschatsi_machine_learning_R_1  |[0m 60                                                                               Simon_(1955)_A Behavioral Model of Rational Choice.pdf
+[36mschatsi_machine_learning_R_1  |[0m 61                                                     Simon_(1959)_Theories of Decision-Making in Economics and Behavioral Science.pdf
+[36mschatsi_machine_learning_R_1  |[0m 62                                                     Simon_(1959)_Theories of Decision-Making in Economics and Behavioral Science.pdf
+[36mschatsi_machine_learning_R_1  |[0m 63                                                     Simon_(1959)_Theories of Decision-Making in Economics and Behavioral Science.pdf
+[36mschatsi_machine_learning_R_1  |[0m 64                                                     Simon_(1959)_Theories of Decision-Making in Economics and Behavioral Science.pdf
+[36mschatsi_machine_learning_R_1  |[0m 65                                                   Singh_and_Kim_(2018)_Branch based blockchain technology in intelligent vehicle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 66                                                   Singh_and_Kim_(2018)_Branch based blockchain technology in intelligent vehicle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 67                                                   Singh_and_Kim_(2018)_Branch based blockchain technology in intelligent vehicle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 68                                                   Singh_and_Kim_(2018)_Branch based blockchain technology in intelligent vehicle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 69                                                   Singh_and_Kim_(2018)_Branch based blockchain technology in intelligent vehicle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 70                                                   Singh_and_Kim_(2018)_Branch based blockchain technology in intelligent vehicle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 71                         Skraaning_and_Jamieson_(XXXX)_Human performance benefits of the automation transparency design principle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 72                         Skraaning_and_Jamieson_(XXXX)_Human performance benefits of the automation transparency design principle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 73                         Skraaning_and_Jamieson_(XXXX)_Human performance benefits of the automation transparency design principle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 74                         Skraaning_and_Jamieson_(XXXX)_Human performance benefits of the automation transparency design principle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 75                         Skraaning_and_Jamieson_(XXXX)_Human performance benefits of the automation transparency design principle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 76                         Skraaning_and_Jamieson_(XXXX)_Human performance benefits of the automation transparency design principle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 77                         Skraaning_and_Jamieson_(XXXX)_Human performance benefits of the automation transparency design principle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 78                         Skraaning_and_Jamieson_(XXXX)_Human performance benefits of the automation transparency design principle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 79                         Skraaning_and_Jamieson_(XXXX)_Human performance benefits of the automation transparency design principle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 80                         Skraaning_and_Jamieson_(XXXX)_Human performance benefits of the automation transparency design principle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 81                         Skraaning_and_Jamieson_(XXXX)_Human performance benefits of the automation transparency design principle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 82                         Skraaning_and_Jamieson_(XXXX)_Human performance benefits of the automation transparency design principle.pdf
+[36mschatsi_machine_learning_R_1  |[0m 83                                                                                                          smartcities-04-00027-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 84                                                                                                          smartcities-04-00027-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 85                                                                                                          smartcities-04-00027-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 86                                                                                                          smartcities-04-00027-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 87                                                                                                                        smc-revis.pdf
+[36mschatsi_machine_learning_R_1  |[0m 88                                                                                                                        smc-revis.pdf
+[36mschatsi_machine_learning_R_1  |[0m 89                                                                                                                        smc-revis.pdf
+[36mschatsi_machine_learning_R_1  |[0m 90                                                                                                                        smc-revis.pdf
+[36mschatsi_machine_learning_R_1  |[0m 91                                                                              Starke et al_Intential machines - a defense of_2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 92                                                                              Starke et al_Intential machines - a defense of_2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 93                                                                            Starke et al_International machines a defence of_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 94                                                                            Starke et al_International machines a defence of_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 95                                                                              Stowers et al_The impact of agent transparency_2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 96                                                                              Stowers et al_The impact of agent transparency_2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 97                                                                              Stowers et al_The impact of agent transparency_2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 98                                                                              Stowers et al_The impact of agent transparency_2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 99                                                                               Strategies_for_minimizing_information_asymmetries_.pdf
+[36mschatsi_machine_learning_R_1  |[0m 100                                                                              Strategies_for_minimizing_information_asymmetries_.pdf
+[36mschatsi_machine_learning_R_1  |[0m 101                                                                              Strategies_for_minimizing_information_asymmetries_.pdf
+[36mschatsi_machine_learning_R_1  |[0m 102                                               Stuck et al_The importance of incorporating risk into human-automation trust_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 103                                               Stuck et al_The importance of incorporating risk into human-automation trust_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 104                                               Stuck et al_The importance of incorporating risk into human-automation trust_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 105                                               Stuck et al_The importance of incorporating risk into human-automation trust_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 106                                               Stuck et al_The importance of incorporating risk into human-automation trust_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 107                                                                             Sullivan2020_Article_AppraisalsOfHarmsAndInjusticeT.pdf
+[36mschatsi_machine_learning_R_1  |[0m 108                                                                             Sullivan2020_Article_AppraisalsOfHarmsAndInjusticeT.pdf
+[36mschatsi_machine_learning_R_1  |[0m 109                                                                             Sullivan2020_Article_AppraisalsOfHarmsAndInjusticeT.pdf
+[36mschatsi_machine_learning_R_1  |[0m 110                                                                             Sullivan2020_Article_AppraisalsOfHarmsAndInjusticeT.pdf
+[36mschatsi_machine_learning_R_1  |[0m 111                                                                             Sullivan2020_Article_AppraisalsOfHarmsAndInjusticeT.pdf
+[36mschatsi_machine_learning_R_1  |[0m 112                                                                             Sullivan2020_Article_AppraisalsOfHarmsAndInjusticeT.pdf
+[36mschatsi_machine_learning_R_1  |[0m 113                                                                             Sullivan2020_Article_AppraisalsOfHarmsAndInjusticeT.pdf
+[36mschatsi_machine_learning_R_1  |[0m 114                                                                                                         sustainability-09-00622.pdf
+[36mschatsi_machine_learning_R_1  |[0m 115                                                                                                         sustainability-09-00622.pdf
+[36mschatsi_machine_learning_R_1  |[0m 116                                                                                                         sustainability-09-00622.pdf
+[36mschatsi_machine_learning_R_1  |[0m 117                                                                                                         sustainability-09-00622.pdf
+[36mschatsi_machine_learning_R_1  |[0m 118                                                                                                         sustainability-09-00622.pdf
+[36mschatsi_machine_learning_R_1  |[0m 119                                                                                                         sustainability-09-00622.pdf
+[36mschatsi_machine_learning_R_1  |[0m 120                                                                                                         sustainability-12-08888.pdf
+[36mschatsi_machine_learning_R_1  |[0m 121                                                                                                         sustainability-12-08888.pdf
+[36mschatsi_machine_learning_R_1  |[0m 122                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 123                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 124                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 125                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 126                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 127                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 128                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 129                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 130                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 131                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 132                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 133                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 134                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 135                                                                                                      sustainability-13-01948-v2.pdf
+[36mschatsi_machine_learning_R_1  |[0m 136                                                                                                         sustainability-13-10221.pdf
+[36mschatsi_machine_learning_R_1  |[0m 137                                                                                                         sustainability-13-10221.pdf
+[36mschatsi_machine_learning_R_1  |[0m 138                                                                                                         sustainability-13-10221.pdf
+[36mschatsi_machine_learning_R_1  |[0m 139                                                                                                         sustainability-13-10221.pdf
+[36mschatsi_machine_learning_R_1  |[0m 140                                                                                                         sustainability-13-10221.pdf
+[36mschatsi_machine_learning_R_1  |[0m 141                                                                                                         sustainability-13-10221.pdf
+[36mschatsi_machine_learning_R_1  |[0m 142                                                                                                         sustainability-13-10221.pdf
+[36mschatsi_machine_learning_R_1  |[0m 143                                                                                                         sustainability-13-10221.pdf
+[36mschatsi_machine_learning_R_1  |[0m 144                                                                                                         sustainability-13-10221.pdf
+[36mschatsi_machine_learning_R_1  |[0m 145                                                                                                         sustainability-13-10221.pdf
+[36mschatsi_machine_learning_R_1  |[0m 146                                                                                                         sustainability-13-10221.pdf
+[36mschatsi_machine_learning_R_1  |[0m 147                                                                                                         sustainability-13-10221.pdf
+[36mschatsi_machine_learning_R_1  |[0m 148                                                                                                         sustainability-13-10221.pdf
+[36mschatsi_machine_learning_R_1  |[0m 149                                                                                                  Sutrop_TrustinAI_Trames-4-2019.pdf
+[36mschatsi_machine_learning_R_1  |[0m 150                                                                                                  Sutrop_TrustinAI_Trames-4-2019.pdf
+[36mschatsi_machine_learning_R_1  |[0m 151                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 152                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 153                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 154                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 155                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 156                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 157                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 158                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 159                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 160                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 161                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 162                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 163                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 164                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 165                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 166                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 167                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 168                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 169                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 170                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 171                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 172                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 173                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 174                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 175                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 176                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 177                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 178                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 179                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 180                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 181                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 182                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 183                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 184                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 185                                                                              Tamargo2017_Article_SharingBeliefsAmongAgentsWithD.pdf
+[36mschatsi_machine_learning_R_1  |[0m 186                              Tarek_Gaber_Accepted_Trust-based Secure Clustering in WSN-based Intelligent Transportation Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 187                              Tarek_Gaber_Accepted_Trust-based Secure Clustering in WSN-based Intelligent Transportation Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 188                              Tarek_Gaber_Accepted_Trust-based Secure Clustering in WSN-based Intelligent Transportation Systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 189                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 190                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 191                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 192                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 193                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 194                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 195                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 196                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 197                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 198                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 199                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 200                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 201                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 202                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 203                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 204                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 205                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 206                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 207                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 208                                                                                                           TCCN_Meehong_for_Pure.pdf
+[36mschatsi_machine_learning_R_1  |[0m 209                                  The role of domain expertise in trusting and following explainable AI decision support systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 210                                  The role of domain expertise in trusting and following explainable AI decision support systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 211                                  The role of domain expertise in trusting and following explainable AI decision support systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 212                                  The role of domain expertise in trusting and following explainable AI decision support systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 213                                  The role of domain expertise in trusting and following explainable AI decision support systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 214                                  The role of domain expertise in trusting and following explainable AI decision support systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 215                                  The role of domain expertise in trusting and following explainable AI decision support systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 216                                  The role of domain expertise in trusting and following explainable AI decision support systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 217                                                                           The_IMPACT_of_Agent_Transparency_on_Human_Performance.pdf
+[36mschatsi_machine_learning_R_1  |[0m 218                                                                           The_IMPACT_of_Agent_Transparency_on_Human_Performance.pdf
+[36mschatsi_machine_learning_R_1  |[0m 219                                                                           The_IMPACT_of_Agent_Transparency_on_Human_Performance.pdf
+[36mschatsi_machine_learning_R_1  |[0m 220                                                                           The_IMPACT_of_Agent_Transparency_on_Human_Performance.pdf
+[36mschatsi_machine_learning_R_1  |[0m 221                                                                              The_Psychology_of_Driving_Automation_Stanton_et_al.pdf
+[36mschatsi_machine_learning_R_1  |[0m 222                                                                              The_Psychology_of_Driving_Automation_Stanton_et_al.pdf
+[36mschatsi_machine_learning_R_1  |[0m 223                                                                              The_Psychology_of_Driving_Automation_Stanton_et_al.pdf
+[36mschatsi_machine_learning_R_1  |[0m 224                                                                              Thiebes2021_Article_TrustworthyArtificialIntellige.pdf
+[36mschatsi_machine_learning_R_1  |[0m 225                                                                              Thiebes2021_Article_TrustworthyArtificialIntellige.pdf
+[36mschatsi_machine_learning_R_1  |[0m 226                                                                              Thiebes2021_Article_TrustworthyArtificialIntellige.pdf
+[36mschatsi_machine_learning_R_1  |[0m 227                                                                              Thiebes2021_Article_TrustworthyArtificialIntellige.pdf
+[36mschatsi_machine_learning_R_1  |[0m 228                                                                              Thiebes2021_Article_TrustworthyArtificialIntellige.pdf
+[36mschatsi_machine_learning_R_1  |[0m 229                                                                              Thiebes2021_Article_TrustworthyArtificialIntellige.pdf
+[36mschatsi_machine_learning_R_1  |[0m 230                                                                              Thiebes2021_Article_TrustworthyArtificialIntellige.pdf
+[36mschatsi_machine_learning_R_1  |[0m 231                                                                              Thiebes2021_Article_TrustworthyArtificialIntellige.pdf
+[36mschatsi_machine_learning_R_1  |[0m 232                                                                              Thiebes2021_Article_TrustworthyArtificialIntellige.pdf
+[36mschatsi_machine_learning_R_1  |[0m 233                                                                                                                       toist2013.pdf
+[36mschatsi_machine_learning_R_1  |[0m 234                                                                                                                       toist2013.pdf
+[36mschatsi_machine_learning_R_1  |[0m 235                                                                                                                       toist2013.pdf
+[36mschatsi_machine_learning_R_1  |[0m 236                                                                                                                       toist2013.pdf
+[36mschatsi_machine_learning_R_1  |[0m 237                                                                                                                       toist2013.pdf
+[36mschatsi_machine_learning_R_1  |[0m 238                                                                                                                       toist2013.pdf
+[36mschatsi_machine_learning_R_1  |[0m 239                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 240                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 241                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 242                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 243                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 244                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 245                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 246                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 247                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 248                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 249                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 250                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 251                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 252                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 253                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 254                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 255                                                                                 Tran2010_Article_ProtectingBuyingAgentsInE-mark.pdf
+[36mschatsi_machine_learning_R_1  |[0m 256                                                                    Transparency and trust in artificial intelligence systems(1).pdf
+[36mschatsi_machine_learning_R_1  |[0m 257                                                                    Transparency and trust in artificial intelligence systems(1).pdf
+[36mschatsi_machine_learning_R_1  |[0m 258                                                                                           Troshani et al_Do we trust in AI_2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 259                                                                                           Troshani et al_Do we trust in AI_2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 260                                                                                           Troshani et al_Do we trust in AI_2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 261                                                                                           Troshani et al_Do we trust in AI_2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 262                                                                                           Troshani et al_Do we trust in AI_2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 263                                                                                           Troshani et al_Do we trust in AI_2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 264                                                                                           Troshani et al_Do we trust in AI_2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 265                                     Trust in artificial intelligence within production management an exploration of antecedents.pdf
+[36mschatsi_machine_learning_R_1  |[0m 266                                     Trust in artificial intelligence within production management an exploration of antecedents.pdf
+[36mschatsi_machine_learning_R_1  |[0m 267                                     Trust in artificial intelligence within production management an exploration of antecedents.pdf
+[36mschatsi_machine_learning_R_1  |[0m 268                                     Trust in artificial intelligence within production management an exploration of antecedents.pdf
+[36mschatsi_machine_learning_R_1  |[0m 269                                     Trust in artificial intelligence within production management an exploration of antecedents.pdf
+[36mschatsi_machine_learning_R_1  |[0m 270                                     Trust in artificial intelligence within production management an exploration of antecedents.pdf
+[36mschatsi_machine_learning_R_1  |[0m 271                 Trust in automation Part I Theoretical issues in the study of trust and human intervention in automated systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 272                 Trust in automation Part I Theoretical issues in the study of trust and human intervention in automated systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 273                 Trust in automation Part I Theoretical issues in the study of trust and human intervention in automated systems.pdf
+[36mschatsi_machine_learning_R_1  |[0m 274                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 275                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 276                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 277                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 278                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 279                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 280                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 281                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 282                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 283                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 284                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 285                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 286                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 287                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 288                Trust in automation Part II Experimental studies of trust and human intervention in a process control simulation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 289               Trusted sorghum simulating interactions in the sorghum value chain in Kenya using games and agent based modelling.pdf
+[36mschatsi_machine_learning_R_1  |[0m 290               Trusted sorghum simulating interactions in the sorghum value chain in Kenya using games and agent based modelling.pdf
+[36mschatsi_machine_learning_R_1  |[0m 291               Trusted sorghum simulating interactions in the sorghum value chain in Kenya using games and agent based modelling.pdf
+[36mschatsi_machine_learning_R_1  |[0m 292               Trusted sorghum simulating interactions in the sorghum value chain in Kenya using games and agent based modelling.pdf
+[36mschatsi_machine_learning_R_1  |[0m 293               Trusted sorghum simulating interactions in the sorghum value chain in Kenya using games and agent based modelling.pdf
+[36mschatsi_machine_learning_R_1  |[0m 294               Trusted sorghum simulating interactions in the sorghum value chain in Kenya using games and agent based modelling.pdf
+[36mschatsi_machine_learning_R_1  |[0m 295               Trusted sorghum simulating interactions in the sorghum value chain in Kenya using games and agent based modelling.pdf
+[36mschatsi_machine_learning_R_1  |[0m 296               Trusted sorghum simulating interactions in the sorghum value chain in Kenya using games and agent based modelling.pdf
+[36mschatsi_machine_learning_R_1  |[0m 297               Trusted sorghum simulating interactions in the sorghum value chain in Kenya using games and agent based modelling.pdf
+[36mschatsi_machine_learning_R_1  |[0m 298               Trusted sorghum simulating interactions in the sorghum value chain in Kenya using games and agent based modelling.pdf
+[36mschatsi_machine_learning_R_1  |[0m 299                        Trustworthiness_of_Self-Driving_Vehicles_for_Intelligent_Transportation_Systems_in_Industry_Applications.pdf
+[36mschatsi_machine_learning_R_1  |[0m 300                        Trustworthiness_of_Self-Driving_Vehicles_for_Intelligent_Transportation_Systems_in_Industry_Applications.pdf
+[36mschatsi_machine_learning_R_1  |[0m 301                        Trustworthiness_of_Self-Driving_Vehicles_for_Intelligent_Transportation_Systems_in_Industry_Applications.pdf
+[36mschatsi_machine_learning_R_1  |[0m 302                        Trustworthiness_of_Self-Driving_Vehicles_for_Intelligent_Transportation_Systems_in_Industry_Applications.pdf
+[36mschatsi_machine_learning_R_1  |[0m 303                        Trustworthiness_of_Self-Driving_Vehicles_for_Intelligent_Transportation_Systems_in_Industry_Applications.pdf
+[36mschatsi_machine_learning_R_1  |[0m 304                        Trustworthiness_of_Self-Driving_Vehicles_for_Intelligent_Transportation_Systems_in_Industry_Applications.pdf
+[36mschatsi_machine_learning_R_1  |[0m 305                        Trustworthiness_of_Self-Driving_Vehicles_for_Intelligent_Transportation_Systems_in_Industry_Applications.pdf
+[36mschatsi_machine_learning_R_1  |[0m 306                        Trustworthiness_of_Self-Driving_Vehicles_for_Intelligent_Transportation_Systems_in_Industry_Applications.pdf
+[36mschatsi_machine_learning_R_1  |[0m 307                        Trustworthiness_of_Self-Driving_Vehicles_for_Intelligent_Transportation_Systems_in_Industry_Applications.pdf
+[36mschatsi_machine_learning_R_1  |[0m 308                                                                         Trustworthy_deep_learning-6G-enabled_mass_autonomy-2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 309                                                                              Trust_and_relationship_building_in_electronic_comm.pdf
+[36mschatsi_machine_learning_R_1  |[0m 310                                                                              Trust_and_relationship_building_in_electronic_comm.pdf
+[36mschatsi_machine_learning_R_1  |[0m 311                                                                              Trust_and_relationship_building_in_electronic_comm.pdf
+[36mschatsi_machine_learning_R_1  |[0m 312                                                                              Trust_and_relationship_building_in_electronic_comm.pdf
+[36mschatsi_machine_learning_R_1  |[0m 313                                         Trust_and_Reputation_in_the_Internet_of_Things_State-of-the-Art_and_Research_Challenges.pdf
+[36mschatsi_machine_learning_R_1  |[0m 314                                         Trust_and_Reputation_in_the_Internet_of_Things_State-of-the-Art_and_Research_Challenges.pdf
+[36mschatsi_machine_learning_R_1  |[0m 315                                         Trust_and_Reputation_in_the_Internet_of_Things_State-of-the-Art_and_Research_Challenges.pdf
+[36mschatsi_machine_learning_R_1  |[0m 316                                 Trust_and_Reputation_Management_for_Securing_Collaboration_in_5G_Access_Networks_The_Road_Ahead.pdf
+[36mschatsi_machine_learning_R_1  |[0m 317                                 Trust_and_Reputation_Management_for_Securing_Collaboration_in_5G_Access_Networks_The_Road_Ahead.pdf
+[36mschatsi_machine_learning_R_1  |[0m 318                                 Trust_and_Reputation_Management_for_Securing_Collaboration_in_5G_Access_Networks_The_Road_Ahead.pdf
+[36mschatsi_machine_learning_R_1  |[0m 319                                 Trust_and_Reputation_Management_for_Securing_Collaboration_in_5G_Access_Networks_The_Road_Ahead.pdf
+[36mschatsi_machine_learning_R_1  |[0m 320                                 Trust_and_Reputation_Management_for_Securing_Collaboration_in_5G_Access_Networks_The_Road_Ahead.pdf
+[36mschatsi_machine_learning_R_1  |[0m 321                                 Trust_and_Reputation_Management_for_Securing_Collaboration_in_5G_Access_Networks_The_Road_Ahead.pdf
+[36mschatsi_machine_learning_R_1  |[0m 322                                 Trust_and_Reputation_Management_for_Securing_Collaboration_in_5G_Access_Networks_The_Road_Ahead.pdf
+[36mschatsi_machine_learning_R_1  |[0m 323                                 Trust_and_Reputation_Management_for_Securing_Collaboration_in_5G_Access_Networks_The_Road_Ahead.pdf
+[36mschatsi_machine_learning_R_1  |[0m 324                                 Trust_and_Reputation_Management_for_Securing_Collaboration_in_5G_Access_Networks_The_Road_Ahead.pdf
+[36mschatsi_machine_learning_R_1  |[0m 325                                 Trust_and_Reputation_Management_for_Securing_Collaboration_in_5G_Access_Networks_The_Road_Ahead.pdf
+[36mschatsi_machine_learning_R_1  |[0m 326                                                                             Tsamados2021_Article_TheEthicsOfAlgorithmsKeyProble.pdf
+[36mschatsi_machine_learning_R_1  |[0m 327                                                                             Uggirala et al_2004_Measurement of trust in complex.pdf
+[36mschatsi_machine_learning_R_1  |[0m 328                                                                             Uggirala et al_2004_Measurement of trust in complex.pdf
+[36mschatsi_machine_learning_R_1  |[0m 329                                                                             Uggirala et al_2004_Measurement of trust in complex.pdf
+[36mschatsi_machine_learning_R_1  |[0m 330                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 331                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 332                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 333                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 334                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 335                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 336                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 337                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 338                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 339                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 340                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 341                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 342                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 343                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 344                                                           Uzir et al_Applied artificial intelligence and user satisfaction_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 345                                             van Dongen and van Maanen_2012_A framework for explaining reliance on decision aids.pdf
+[36mschatsi_machine_learning_R_1  |[0m 346                                             van Dongen and van Maanen_2012_A framework for explaining reliance on decision aids.pdf
+[36mschatsi_machine_learning_R_1  |[0m 347                                             van Dongen and van Maanen_2012_A framework for explaining reliance on decision aids.pdf
+[36mschatsi_machine_learning_R_1  |[0m 348                                             van Dongen and van Maanen_2012_A framework for explaining reliance on decision aids.pdf
+[36mschatsi_machine_learning_R_1  |[0m 349                                             van Dongen and van Maanen_2012_A framework for explaining reliance on decision aids.pdf
+[36mschatsi_machine_learning_R_1  |[0m 350                                             van Dongen and van Maanen_2012_A framework for explaining reliance on decision aids.pdf
+[36mschatsi_machine_learning_R_1  |[0m 351                                             van Dongen and van Maanen_2012_A framework for explaining reliance on decision aids.pdf
+[36mschatsi_machine_learning_R_1  |[0m 352                                             van Dongen and van Maanen_2012_A framework for explaining reliance on decision aids.pdf
+[36mschatsi_machine_learning_R_1  |[0m 353                                             van Dongen and van Maanen_2012_A framework for explaining reliance on decision aids.pdf
+[36mschatsi_machine_learning_R_1  |[0m 354                                             van Dongen and van Maanen_2012_A framework for explaining reliance on decision aids.pdf
+[36mschatsi_machine_learning_R_1  |[0m 355                                             van Dongen and van Maanen_2012_A framework for explaining reliance on decision aids.pdf
+[36mschatsi_machine_learning_R_1  |[0m 356                                             van Dongen and van Maanen_2012_A framework for explaining reliance on decision aids.pdf
+[36mschatsi_machine_learning_R_1  |[0m 357                                                                               Visser2020_Article_TowardsATheoryOfLongitudinalTr.pdf
+[36mschatsi_machine_learning_R_1  |[0m 358                                                                               Visser2020_Article_TowardsATheoryOfLongitudinalTr.pdf
+[36mschatsi_machine_learning_R_1  |[0m 359                                                                               Visser2020_Article_TowardsATheoryOfLongitudinalTr.pdf
+[36mschatsi_machine_learning_R_1  |[0m 360                                                                               Visser2020_Article_TowardsATheoryOfLongitudinalTr.pdf
+[36mschatsi_machine_learning_R_1  |[0m 361                                                                     Wang et al_Empirical assessment of alternative designs_2016.pdf
+[36mschatsi_machine_learning_R_1  |[0m 362                                                                     Wang et al_Empirical assessment of alternative designs_2016.pdf
+[36mschatsi_machine_learning_R_1  |[0m 363                                                                     Wang et al_Empirical assessment of alternative designs_2016.pdf
+[36mschatsi_machine_learning_R_1  |[0m 364                                                                     Wang et al_Empirical assessment of alternative designs_2016.pdf
+[36mschatsi_machine_learning_R_1  |[0m 365                                                                     Wang et al_Empirical assessment of alternative designs_2016.pdf
+[36mschatsi_machine_learning_R_1  |[0m 366                                                                     Wang et al_Empirical assessment of alternative designs_2016.pdf
+[36mschatsi_machine_learning_R_1  |[0m 367                                                                     Wang et al_Empirical assessment of alternative designs_2016.pdf
+[36mschatsi_machine_learning_R_1  |[0m 368                                                                     Wang et al_Empirical assessment of alternative designs_2016.pdf
+[36mschatsi_machine_learning_R_1  |[0m 369                                                                     Wang et al_Empirical assessment of alternative designs_2016.pdf
+[36mschatsi_machine_learning_R_1  |[0m 370 Wang_and_Benbasat_(2014)_Attributions of Trust in Decision Support Technologies A Study of Recommendation Agents for E Commerce.pdf
+[36mschatsi_machine_learning_R_1  |[0m 371 Wang_and_Benbasat_(2014)_Attributions of Trust in Decision Support Technologies A Study of Recommendation Agents for E Commerce.pdf
+[36mschatsi_machine_learning_R_1  |[0m 372 Wang_and_Benbasat_(2014)_Attributions of Trust in Decision Support Technologies A Study of Recommendation Agents for E Commerce.pdf
+[36mschatsi_machine_learning_R_1  |[0m 373 Wang_and_Benbasat_(2014)_Attributions of Trust in Decision Support Technologies A Study of Recommendation Agents for E Commerce.pdf
+[36mschatsi_machine_learning_R_1  |[0m 374 Wang_and_Benbasat_(2014)_Attributions of Trust in Decision Support Technologies A Study of Recommendation Agents for E Commerce.pdf
+[36mschatsi_machine_learning_R_1  |[0m 375 Wang_and_Benbasat_(2014)_Attributions of Trust in Decision Support Technologies A Study of Recommendation Agents for E Commerce.pdf
+[36mschatsi_machine_learning_R_1  |[0m 376                                                                                Weitz2021_Article_LetMeExplainExploringThePotent.pdf
+[36mschatsi_machine_learning_R_1  |[0m 377                                                                                Weitz2021_Article_LetMeExplainExploringThePotent.pdf
+[36mschatsi_machine_learning_R_1  |[0m 378                                                                                Weitz2021_Article_LetMeExplainExploringThePotent.pdf
+[36mschatsi_machine_learning_R_1  |[0m 379                                                                Wei_et_al_(2020)_The level of measurement of trust in automation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 380                                                                Wei_et_al_(2020)_The level of measurement of trust in automation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 381                                                                Wei_et_al_(2020)_The level of measurement of trust in automation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 382                                                                Wei_et_al_(2020)_The level of measurement of trust in automation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 383                                                                Wei_et_al_(2020)_The level of measurement of trust in automation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 384                                                                Wei_et_al_(2020)_The level of measurement of trust in automation.pdf
+[36mschatsi_machine_learning_R_1  |[0m 385                                                                                                            Wiczorek_Manzey_2014.pdf
+[36mschatsi_machine_learning_R_1  |[0m 386                                                                                                            Wiczorek_Manzey_2014.pdf
+[36mschatsi_machine_learning_R_1  |[0m 387                                                                                                            Wiczorek_Manzey_2014.pdf
+[36mschatsi_machine_learning_R_1  |[0m 388                                                                                                            Wiczorek_Manzey_2014.pdf
+[36mschatsi_machine_learning_R_1  |[0m 389                                                                                                            Wiczorek_Manzey_2014.pdf
+[36mschatsi_machine_learning_R_1  |[0m 390                                                                                                            Wiczorek_Manzey_2014.pdf
+[36mschatsi_machine_learning_R_1  |[0m 391                                                                                                                            wp74.pdf
+[36mschatsi_machine_learning_R_1  |[0m 392                                                                 WRAP-calibrating-trust-knowledge-concept-vehicles-Jennings-2018.pdf
+[36mschatsi_machine_learning_R_1  |[0m 393                                                                 WRAP-calibrating-trust-knowledge-concept-vehicles-Jennings-2018.pdf
+[36mschatsi_machine_learning_R_1  |[0m 394                                                                 WRAP-calibrating-trust-knowledge-concept-vehicles-Jennings-2018.pdf
+[36mschatsi_machine_learning_R_1  |[0m 395                                                                 WRAP-calibrating-trust-knowledge-concept-vehicles-Jennings-2018.pdf
+[36mschatsi_machine_learning_R_1  |[0m 396                                                                 WRAP-calibrating-trust-knowledge-concept-vehicles-Jennings-2018.pdf
+[36mschatsi_machine_learning_R_1  |[0m 397                                                                 WRAP-calibrating-trust-knowledge-concept-vehicles-Jennings-2018.pdf
+[36mschatsi_machine_learning_R_1  |[0m 398                                                                 WRAP-calibrating-trust-knowledge-concept-vehicles-Jennings-2018.pdf
+[36mschatsi_machine_learning_R_1  |[0m 399                                            WRAP-system-transparency-trust-evaluating-interfaces-automated-vehicle-Oliveira-2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 400                                            WRAP-system-transparency-trust-evaluating-interfaces-automated-vehicle-Oliveira-2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 401                                            WRAP-system-transparency-trust-evaluating-interfaces-automated-vehicle-Oliveira-2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 402                                            WRAP-system-transparency-trust-evaluating-interfaces-automated-vehicle-Oliveira-2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 403                                            WRAP-system-transparency-trust-evaluating-interfaces-automated-vehicle-Oliveira-2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 404                                            WRAP-system-transparency-trust-evaluating-interfaces-automated-vehicle-Oliveira-2020.pdf
+[36mschatsi_machine_learning_R_1  |[0m 405                                                   Wynne_et_al_(2018)_An integrative model of autonomous agent teammate likeness.pdf
+[36mschatsi_machine_learning_R_1  |[0m 406                                                   Wynne_et_al_(2018)_An integrative model of autonomous agent teammate likeness.pdf
+[36mschatsi_machine_learning_R_1  |[0m 407                                                   Wynne_et_al_(2018)_An integrative model of autonomous agent teammate likeness.pdf
+[36mschatsi_machine_learning_R_1  |[0m 408                                                   Wynne_et_al_(2018)_An integrative model of autonomous agent teammate likeness.pdf
+[36mschatsi_machine_learning_R_1  |[0m 409                                                   Wynne_et_al_(2018)_An integrative model of autonomous agent teammate likeness.pdf
+[36mschatsi_machine_learning_R_1  |[0m 410                                                   Wynne_et_al_(2018)_An integrative model of autonomous agent teammate likeness.pdf
+[36mschatsi_machine_learning_R_1  |[0m 411                                                   Wynne_et_al_(2018)_An integrative model of autonomous agent teammate likeness.pdf
+[36mschatsi_machine_learning_R_1  |[0m 412                                                   Wynne_et_al_(2018)_An integrative model of autonomous agent teammate likeness.pdf
+[36mschatsi_machine_learning_R_1  |[0m 413                                                   Wynne_et_al_(2018)_An integrative model of autonomous agent teammate likeness.pdf
+[36mschatsi_machine_learning_R_1  |[0m 414                                                   Wynne_et_al_(2018)_An integrative model of autonomous agent teammate likeness.pdf
+[36mschatsi_machine_learning_R_1  |[0m 415                                                                                                                               x.pdf
+[36mschatsi_machine_learning_R_1  |[0m 416                                                                                                                               x.pdf
+[36mschatsi_machine_learning_R_1  |[0m 417                                                                                                                               x.pdf
+[36mschatsi_machine_learning_R_1  |[0m 418                                                                                                                               x.pdf
+[36mschatsi_machine_learning_R_1  |[0m 419                                                                                                                               x.pdf
+[36mschatsi_machine_learning_R_1  |[0m 420                                                                                  Yew2021_Article_TrustInAndEthicalDesignOfCareb.pdf
+[36mschatsi_machine_learning_R_1  |[0m 421                                                                                  Yew2021_Article_TrustInAndEthicalDesignOfCareb.pdf
+[36mschatsi_machine_learning_R_1  |[0m 422                                                                                  Yew2021_Article_TrustInAndEthicalDesignOfCareb.pdf
+[36mschatsi_machine_learning_R_1  |[0m 423                                                                                  Yew2021_Article_TrustInAndEthicalDesignOfCareb.pdf
+[36mschatsi_machine_learning_R_1  |[0m 424                                                                                  Yew2021_Article_TrustInAndEthicalDesignOfCareb.pdf
+[36mschatsi_machine_learning_R_1  |[0m 425                                                                                  Yew2021_Article_TrustInAndEthicalDesignOfCareb.pdf
+[36mschatsi_machine_learning_R_1  |[0m 426                                                            Yuviler-Gavish-Naseraldin2020_Article_AnExperience-basedContrastEffe.pdf
+[36mschatsi_machine_learning_R_1  |[0m 427                                                            Yuviler-Gavish-Naseraldin2020_Article_AnExperience-basedContrastEffe.pdf
+[36mschatsi_machine_learning_R_1  |[0m 428                                                            Yuviler-Gavish-Naseraldin2020_Article_AnExperience-basedContrastEffe.pdf
+[36mschatsi_machine_learning_R_1  |[0m 429                                                            Yuviler-Gavish-Naseraldin2020_Article_AnExperience-basedContrastEffe.pdf
+[36mschatsi_machine_learning_R_1  |[0m 430                                                            Yuviler-Gavish-Naseraldin2020_Article_AnExperience-basedContrastEffe.pdf
+[36mschatsi_machine_learning_R_1  |[0m 431                                                            Yuviler-Gavish-Naseraldin2020_Article_AnExperience-basedContrastEffe.pdf
+[36mschatsi_machine_learning_R_1  |[0m 432                                                            Yuviler-Gavish-Naseraldin2020_Article_AnExperience-basedContrastEffe.pdf
+[36mschatsi_machine_learning_R_1  |[0m 433                                                                         Zha et al_Making sense of sensory brand experience_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 434                                                                         Zha et al_Making sense of sensory brand experience_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 435                                                                         Zha et al_Making sense of sensory brand experience_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 436                                                                         Zha et al_Making sense of sensory brand experience_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 437                                                                         Zha et al_Making sense of sensory brand experience_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 438                                                                         Zha et al_Making sense of sensory brand experience_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 439                                                                                              Zhang et al_Who do you choose_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 440                                                                                              Zhang et al_Who do you choose_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 441                                                                                              Zhang et al_Who do you choose_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 442                                                                                              Zhang et al_Who do you choose_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 443                                                                                              Zhang et al_Who do you choose_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 444                                                                                              Zhang et al_Who do you choose_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 445                                                                                              Zhang et al_Who do you choose_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 446                                                                                              Zhang et al_Who do you choose_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 447                                                                                              Zhang et al_Who do you choose_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 448                                                                                              Zhang et al_Who do you choose_2021.pdf
+[36mschatsi_machine_learning_R_1  |[0m 449                                                                                Zhang2021_Article_EffectOfAIExplanationsOnHumanP.pdf
+[36mschatsi_machine_learning_R_1  |[0m 450                                                                                Zhang2021_Article_EffectOfAIExplanationsOnHumanP.pdf
+[36mschatsi_machine_learning_R_1  |[0m 451                                                                                Zhang2021_Article_EffectOfAIExplanationsOnHumanP.pdf
+[36mschatsi_machine_learning_R_1  |[0m                      term termCount Length
+[36mschatsi_machine_learning_R_1  |[0m 1                   agent       236      5
+[36mschatsi_machine_learning_R_1  |[0m 2                   trust       204      5
+[36mschatsi_machine_learning_R_1  |[0m 3                  agents       161      6
+[36mschatsi_machine_learning_R_1  |[0m 4                  models        70      6
+[36mschatsi_machine_learning_R_1  |[0m 5              reputation        75     10
+[36mschatsi_machine_learning_R_1  |[0m 6                 truster       113      7
+[36mschatsi_machine_learning_R_1  |[0m 7                 trustee       176      7
+[36mschatsi_machine_learning_R_1  |[0m 8                   model        50      5
+[36mschatsi_machine_learning_R_1  |[0m 9           truster agent        61     13
+[36mschatsi_machine_learning_R_1  |[0m 10          trustee agent        99     13
+[36mschatsi_machine_learning_R_1  |[0m 11         trustee agents        57     14
+[36mschatsi_machine_learning_R_1  |[0m 12               machines       333      8
+[36mschatsi_machine_learning_R_1  |[0m 13              teammates       257      9
+[36mschatsi_machine_learning_R_1  |[0m 14               research       118      8
+[36mschatsi_machine_learning_R_1  |[0m 15            information        78     11
+[36mschatsi_machine_learning_R_1  |[0m 16                     ai        78      2
+[36mschatsi_machine_learning_R_1  |[0m 17                   team       104      4
+[36mschatsi_machine_learning_R_1  |[0m 18                 design       108      6
+[36mschatsi_machine_learning_R_1  |[0m 19                machine       308      7
+[36mschatsi_machine_learning_R_1  |[0m 20                 humans       158      6
+[36mschatsi_machine_learning_R_1  |[0m 21               teammate       114      8
+[36mschatsi_machine_learning_R_1  |[0m 22                   need        58      4
+[36mschatsi_machine_learning_R_1  |[0m 23                 people        52      6
+[36mschatsi_machine_learning_R_1  |[0m 24                  human       186      5
+[36mschatsi_machine_learning_R_1  |[0m 25                  could        72      5
+[36mschatsi_machine_learning_R_1  |[0m 26                   work        55      4
+[36mschatsi_machine_learning_R_1  |[0m 27                  might        94      5
+[36mschatsi_machine_learning_R_1  |[0m 28       machine teammate        65     16
+[36mschatsi_machine_learning_R_1  |[0m 29      machine teammates        94     17
+[36mschatsi_machine_learning_R_1  |[0m 30  machines as teammates        98     21
+[36mschatsi_machine_learning_R_1  |[0m 31                niashpt        70      7
+[36mschatsi_machine_learning_R_1  |[0m 32                  table        50      5
+[36mschatsi_machine_learning_R_1  |[0m 33              blackhole        81      9
+[36mschatsi_machine_learning_R_1  |[0m 34                 attack        53      6
+[36mschatsi_machine_learning_R_1  |[0m 35                   node       120      4
+[36mschatsi_machine_learning_R_1  |[0m 36                routing        54      7
+[36mschatsi_machine_learning_R_1  |[0m 37                attacks        54      7
+[36mschatsi_machine_learning_R_1  |[0m 38                  nodes       100      5
+[36mschatsi_machine_learning_R_1  |[0m 39         explainability        78     14
+[36mschatsi_machine_learning_R_1  |[0m 40            causability        60     11
+[36mschatsi_machine_learning_R_1  |[0m 41                  trust       115      5
+[36mschatsi_machine_learning_R_1  |[0m 42                     ai       162      2
+[36mschatsi_machine_learning_R_1  |[0m 43                   user        72      4
+[36mschatsi_machine_learning_R_1  |[0m 44                  users        75      5
+[36mschatsi_machine_learning_R_1  |[0m 45               decision       227      8
+[36mschatsi_machine_learning_R_1  |[0m 46                 making       144      6
+[36mschatsi_machine_learning_R_1  |[0m 47                     ai       132      2
+[36mschatsi_machine_learning_R_1  |[0m 48                  based        61      5
+[36mschatsi_machine_learning_R_1  |[0m 49                  human       116      5
+[36mschatsi_machine_learning_R_1  |[0m 50              decisions        61      9
+[36mschatsi_machine_learning_R_1  |[0m 51        decision making       138     15
+[36mschatsi_machine_learning_R_1  |[0m 52               ai based        50      8
+[36mschatsi_machine_learning_R_1  |[0m 53                     ai       123      2
+[36mschatsi_machine_learning_R_1  |[0m 54               decision       221      8
+[36mschatsi_machine_learning_R_1  |[0m 55                 making       141      6
+[36mschatsi_machine_learning_R_1  |[0m 56                  based        58      5
+[36mschatsi_machine_learning_R_1  |[0m 57                  human       102      5
+[36mschatsi_machine_learning_R_1  |[0m 58              decisions        59      9
+[36mschatsi_machine_learning_R_1  |[0m 59        decision making       136     15
+[36mschatsi_machine_learning_R_1  |[0m 60                    pay        59      3
+[36mschatsi_machine_learning_R_1  |[0m 61               decision        79      8
+[36mschatsi_machine_learning_R_1  |[0m 62              economics        53      9
+[36mschatsi_machine_learning_R_1  |[0m 63               economic        63      8
+[36mschatsi_machine_learning_R_1  |[0m 64                 theory       115      6
+[36mschatsi_machine_learning_R_1  |[0m 65             blockchain       133     10
+[36mschatsi_machine_learning_R_1  |[0m 66                vehicle        88      7
+[36mschatsi_machine_learning_R_1  |[0m 67               vehicles        64      8
+[36mschatsi_machine_learning_R_1  |[0m 68          communication        50     13
+[36mschatsi_machine_learning_R_1  |[0m 69                     iv        56      2
+[36mschatsi_machine_learning_R_1  |[0m 70                  block        67      5
+[36mschatsi_machine_learning_R_1  |[0m 71            performance        73     11
+[36mschatsi_machine_learning_R_1  |[0m 72             automation       333     10
+[36mschatsi_machine_learning_R_1  |[0m 73                  plant        51      5
+[36mschatsi_machine_learning_R_1  |[0m 74            experiments        60     11
+[36mschatsi_machine_learning_R_1  |[0m 75             experiment        53     10
+[36mschatsi_machine_learning_R_1  |[0m 76                process        53      7
+[36mschatsi_machine_learning_R_1  |[0m 77               scenario        69      8
+[36mschatsi_machine_learning_R_1  |[0m 78                    per        59      3
+[36mschatsi_machine_learning_R_1  |[0m 79                subject        77      7
+[36mschatsi_machine_learning_R_1  |[0m 80                 within        79      6
+[36mschatsi_machine_learning_R_1  |[0m 81                 effect        55      6
+[36mschatsi_machine_learning_R_1  |[0m 82         within subject        76     14
+[36mschatsi_machine_learning_R_1  |[0m 83                  smart        54      5
+[36mschatsi_machine_learning_R_1  |[0m 84                   homo        88      4
+[36mschatsi_machine_learning_R_1  |[0m 85                  model        58      5
+[36mschatsi_machine_learning_R_1  |[0m 86                 figure        78      6
+[36mschatsi_machine_learning_R_1  |[0m 87                  trust       110      5
+[36mschatsi_machine_learning_R_1  |[0m 88             automation       110     10
+[36mschatsi_machine_learning_R_1  |[0m 89           participants        51     12
+[36mschatsi_machine_learning_R_1  |[0m 90              condition        52      9
+[36mschatsi_machine_learning_R_1  |[0m 91                     ai        88      2
+[36mschatsi_machine_learning_R_1  |[0m 92                  trust       176      5
+[36mschatsi_machine_learning_R_1  |[0m 93                  trust       174      5
+[36mschatsi_machine_learning_R_1  |[0m 94                     ai        86      2
+[36mschatsi_machine_learning_R_1  |[0m 95                  human        60      5
+[36mschatsi_machine_learning_R_1  |[0m 96                  agent        72      5
+[36mschatsi_machine_learning_R_1  |[0m 97                  trust        50      5
+[36mschatsi_machine_learning_R_1  |[0m 98            information        65     11
+[36mschatsi_machine_learning_R_1  |[0m 99            information        55     11
+[36mschatsi_machine_learning_R_1  |[0m 100          construction        54     12
+[36mschatsi_machine_learning_R_1  |[0m 101               project       160      7
+[36mschatsi_machine_learning_R_1  |[0m 102                  risk       224      4
+[36mschatsi_machine_learning_R_1  |[0m 103                 trust       241      5
+[36mschatsi_machine_learning_R_1  |[0m 104                 human       108      5
+[36mschatsi_machine_learning_R_1  |[0m 105            automation        94     10
+[36mschatsi_machine_learning_R_1  |[0m 106             perceived        83      9
+[36mschatsi_machine_learning_R_1  |[0m 107             injustice        60      9
+[36mschatsi_machine_learning_R_1  |[0m 108                 trust       103      5
+[36mschatsi_machine_learning_R_1  |[0m 109                agents        65      6
+[36mschatsi_machine_learning_R_1  |[0m 110                  harm        87      4
+[36mschatsi_machine_learning_R_1  |[0m 111           uncanniness        63     11
+[36mschatsi_machine_learning_R_1  |[0m 112                 study        87      5
+[36mschatsi_machine_learning_R_1  |[0m 113                 agent        93      5
+[36mschatsi_machine_learning_R_1  |[0m 114                 smart        88      5
+[36mschatsi_machine_learning_R_1  |[0m 115                  home        74      4
+[36mschatsi_machine_learning_R_1  |[0m 116          technologies        59     12
+[36mschatsi_machine_learning_R_1  |[0m 117               control        63      7
+[36mschatsi_machine_learning_R_1  |[0m 118               default        71      7
+[36mschatsi_machine_learning_R_1  |[0m 119            smart home        59     10
+[36mschatsi_machine_learning_R_1  |[0m 120                   use        93      3
+[36mschatsi_machine_learning_R_1  |[0m 121            technology        53     10
+[36mschatsi_machine_learning_R_1  |[0m 122                   age       117      3
+[36mschatsi_machine_learning_R_1  |[0m 123          explanations        53     12
+[36mschatsi_machine_learning_R_1  |[0m 124                 trust       112      5
+[36mschatsi_machine_learning_R_1  |[0m 125               drivers       113      7
+[36mschatsi_machine_learning_R_1  |[0m 126               younger        50      7
+[36mschatsi_machine_learning_R_1  |[0m 127                 older        59      5
+[36mschatsi_machine_learning_R_1  |[0m 128           explanation       152     11
+[36mschatsi_machine_learning_R_1  |[0m 129                action        95      6
+[36mschatsi_machine_learning_R_1  |[0m 130               request        51      7
+[36mschatsi_machine_learning_R_1  |[0m 131            permission        57     10
+[36mschatsi_machine_learning_R_1  |[0m 132               driving        84      7
+[36mschatsi_machine_learning_R_1  |[0m 133            automation        53     10
+[36mschatsi_machine_learning_R_1  |[0m 134             condition       122      9
+[36mschatsi_machine_learning_R_1  |[0m 135                 means        52      5
+[36mschatsi_machine_learning_R_1  |[0m 136             perceived        74      9
+[36mschatsi_machine_learning_R_1  |[0m 137                  risk        66      4
+[36mschatsi_machine_learning_R_1  |[0m 138            technology        75     10
+[36mschatsi_machine_learning_R_1  |[0m 139            acceptance        50     10
+[36mschatsi_machine_learning_R_1  |[0m 140                online       215      6
+[36mschatsi_machine_learning_R_1  |[0m 141               grocery       124      7
+[36mschatsi_machine_learning_R_1  |[0m 142              shopping        67      8
+[36mschatsi_machine_learning_R_1  |[0m 143              consumer       151      8
+[36mschatsi_machine_learning_R_1  |[0m 144                 trust        85      5
+[36mschatsi_machine_learning_R_1  |[0m 145              purchase        87      8
+[36mschatsi_machine_learning_R_1  |[0m 146             intention        59      9
+[36mschatsi_machine_learning_R_1  |[0m 147        perceived risk        53     14
+[36mschatsi_machine_learning_R_1  |[0m 148        online grocery        74     14
+[36mschatsi_machine_learning_R_1  |[0m 149                 trust       207      5
+[36mschatsi_machine_learning_R_1  |[0m 150                    ai       160      2
+[36mschatsi_machine_learning_R_1  |[0m 151                agents        85      6
+[36mschatsi_machine_learning_R_1  |[0m 152           credibility       203     11
+[36mschatsi_machine_learning_R_1  |[0m 153              approach        52      8
+[36mschatsi_machine_learning_R_1  |[0m 154                 agent       220      5
+[36mschatsi_machine_learning_R_1  |[0m 155                 order       129      5
+[36mschatsi_machine_learning_R_1  |[0m 156                belief       136      6
+[36mschatsi_machine_learning_R_1  |[0m 157                  base        76      4
+[36mschatsi_machine_learning_R_1  |[0m 158              sentence        80      8
+[36mschatsi_machine_learning_R_1  |[0m 159              criteria        71      8
+[36mschatsi_machine_learning_R_1  |[0m 160           information       151     11
+[36mschatsi_machine_learning_R_1  |[0m 161             forwarded        85      9
+[36mschatsi_machine_learning_R_1  |[0m 162              receiver        68      8
+[36mschatsi_machine_learning_R_1  |[0m 163              incoming        73      8
+[36mschatsi_machine_learning_R_1  |[0m 164                sender        79      6
+[36mschatsi_machine_learning_R_1  |[0m 165                object       121      6
+[36mschatsi_machine_learning_R_1  |[0m 166              computed        76      8
+[36mschatsi_machine_learning_R_1  |[0m 167                 using        96      5
+[36mschatsi_machine_learning_R_1  |[0m 168               message        67      7
+[36mschatsi_machine_learning_R_1  |[0m 169                   one        65      3
+[36mschatsi_machine_learning_R_1  |[0m 170                    co       223      2
+[36mschatsi_machine_learning_R_1  |[0m 171            definition        53     10
+[36mschatsi_machine_learning_R_1  |[0m 172                   bel        84      3
+[36mschatsi_machine_learning_R_1  |[0m 173               example        59      7
+[36mschatsi_machine_learning_R_1  |[0m 174                   esc        67      3
+[36mschatsi_machine_learning_R_1  |[0m 175                   erc        72      3
+[36mschatsi_machine_learning_R_1  |[0m 176                 c\006        91      2
+[36mschatsi_machine_learning_R_1  |[0m 177                   psc        56      3
+[36mschatsi_machine_learning_R_1  |[0m 178                   prc        58      3
+[36mschatsi_machine_learning_R_1  |[0m 179           belief base        68     11
+[36mschatsi_machine_learning_R_1  |[0m 180     credibility order        88     17
+[36mschatsi_machine_learning_R_1  |[0m 181                 bel k        75      5
+[36mschatsi_machine_learning_R_1  |[0m 182                 ? bel        81      5
+[36mschatsi_machine_learning_R_1  |[0m 183       incoming object        59     15
+[36mschatsi_machine_learning_R_1  |[0m 184            c\006 \016        60      4
+[36mschatsi_machine_learning_R_1  |[0m 185                   k r        80      3
+[36mschatsi_machine_learning_R_1  |[0m 186                 trust        55      5
+[36mschatsi_machine_learning_R_1  |[0m 187                 nodes        71      5
+[36mschatsi_machine_learning_R_1  |[0m 188                    bs        50      2
+[36mschatsi_machine_learning_R_1  |[0m 189                  ieee       113      4
+[36mschatsi_machine_learning_R_1  |[0m 190             cognitive        59      9
+[36mschatsi_machine_learning_R_1  |[0m 191                 based        61      5
+[36mschatsi_machine_learning_R_1  |[0m 192               cluster       184      7
+[36mschatsi_machine_learning_R_1  |[0m 193                  size        97      4
+[36mschatsi_machine_learning_R_1  |[0m 194                member        87      6
+[36mschatsi_machine_learning_R_1  |[0m 195           clusterhead       148     11
+[36mschatsi_machine_learning_R_1  |[0m 196                    su        52      2
+[36mschatsi_machine_learning_R_1  |[0m 197                 nodes        81      5
+[36mschatsi_machine_learning_R_1  |[0m 198               attacks        59      7
+[36mschatsi_machine_learning_R_1  |[0m 199                attack       146      6
+[36mschatsi_machine_learning_R_1  |[0m 200             attackers        51      9
+[36mschatsi_machine_learning_R_1  |[0m 201                  sarl       133      4
+[36mschatsi_machine_learning_R_1  |[0m 202                  node        52      4
+[36mschatsi_machine_learning_R_1  |[0m 203           probability        67     11
+[36mschatsi_machine_learning_R_1  |[0m 204              decision        77      8
+[36mschatsi_machine_learning_R_1  |[0m 205                 epoch        66      5
+[36mschatsi_machine_learning_R_1  |[0m 206                    ts        88      2
+[36mschatsi_machine_learning_R_1  |[0m 207          cluster size        95     12
+[36mschatsi_machine_learning_R_1  |[0m 208        decision epoch        66     14
+[36mschatsi_machine_learning_R_1  |[0m 209              decision        50      8
+[36mschatsi_machine_learning_R_1  |[0m 210               systems        52      7
+[36mschatsi_machine_learning_R_1  |[0m 211             expertise        67      9
+[36mschatsi_machine_learning_R_1  |[0m 212              trusting        54      8
+[36mschatsi_machine_learning_R_1  |[0m 213                    ai       173      2
+[36mschatsi_machine_learning_R_1  |[0m 214                 trust        88      5
+[36mschatsi_machine_learning_R_1  |[0m 215                 based        65      5
+[36mschatsi_machine_learning_R_1  |[0m 216                   dss        65      3
+[36mschatsi_machine_learning_R_1  |[0m 217                 human        60      5
+[36mschatsi_machine_learning_R_1  |[0m 218                 agent        72      5
+[36mschatsi_machine_learning_R_1  |[0m 219                 trust        50      5
+[36mschatsi_machine_learning_R_1  |[0m 220           information        65     11
+[36mschatsi_machine_learning_R_1  |[0m 221                driver        75      6
+[36mschatsi_machine_learning_R_1  |[0m 222               vehicle        51      7
+[36mschatsi_machine_learning_R_1  |[0m 223                  task        59      4
+[36mschatsi_machine_learning_R_1  |[0m 224                    ai       273      2
+[36mschatsi_machine_learning_R_1  |[0m 225                   tai        84      3
+[36mschatsi_machine_learning_R_1  |[0m 226                 trust        90      5
+[36mschatsi_machine_learning_R_1  |[0m 227            principles        80     10
+[36mschatsi_machine_learning_R_1  |[0m 228                  data       139      4
+[36mschatsi_machine_learning_R_1  |[0m 229              research        84      8
+[36mschatsi_machine_learning_R_1  |[0m 230                 based       103      5
+[36mschatsi_machine_learning_R_1  |[0m 231                   dlt        53      3
+[36mschatsi_machine_learning_R_1  |[0m 232              ai based        55      8
+[36mschatsi_machine_learning_R_1  |[0m 233                 agent       152      5
+[36mschatsi_machine_learning_R_1  |[0m 234                agents       147      6
+[36mschatsi_machine_learning_R_1  |[0m 235                 trust        75      5
+[36mschatsi_machine_learning_R_1  |[0m 236             structure        79      9
+[36mschatsi_machine_learning_R_1  |[0m 237           information        74     11
+[36mschatsi_machine_learning_R_1  |[0m 238             expertise        55      9
+[36mschatsi_machine_learning_R_1  |[0m 239                buying        78      6
+[36mschatsi_machine_learning_R_1  |[0m 240                agents       129      6
+[36mschatsi_machine_learning_R_1  |[0m 241                 trust        98      5
+[36mschatsi_machine_learning_R_1  |[0m 242               sellers       123      7
+[36mschatsi_machine_learning_R_1  |[0m 243               selling        61      7
+[36mschatsi_machine_learning_R_1  |[0m 244                  good        77      4
+[36mschatsi_machine_learning_R_1  |[0m 245              learning        69      8
+[36mschatsi_machine_learning_R_1  |[0m 246                 model        52      5
+[36mschatsi_machine_learning_R_1  |[0m 247                  time        66      4
+[36mschatsi_machine_learning_R_1  |[0m 248               product        59      7
+[36mschatsi_machine_learning_R_1  |[0m 249                 buyer       195      5
+[36mschatsi_machine_learning_R_1  |[0m 250                   non        52      3
+[36mschatsi_machine_learning_R_1  |[0m 251                seller       133      6
+[36mschatsi_machine_learning_R_1  |[0m 252                   \bv       130      2
+[36mschatsi_machine_learning_R_1  |[0m 253                    ?a        66      2
+[36mschatsi_machine_learning_R_1  |[0m 254         buying agents        50     13
+[36mschatsi_machine_learning_R_1  |[0m 255               buyer b       116      7
+[36mschatsi_machine_learning_R_1  |[0m 256                 trust        97      5
+[36mschatsi_machine_learning_R_1  |[0m 257                    ai       103      2
+[36mschatsi_machine_learning_R_1  |[0m 258                 trust        71      5
+[36mschatsi_machine_learning_R_1  |[0m 259                    ai       199      2
+[36mschatsi_machine_learning_R_1  |[0m 260          applications        95     12
+[36mschatsi_machine_learning_R_1  |[0m 261               service        67      7
+[36mschatsi_machine_learning_R_1  |[0m 262                 focus        55      5
+[36mschatsi_machine_learning_R_1  |[0m 263                 human        59      5
+[36mschatsi_machine_learning_R_1  |[0m 264       ai applications        78     15
+[36mschatsi_machine_learning_R_1  |[0m 265                 trust       141      5
+[36mschatsi_machine_learning_R_1  |[0m 266            production        66     10
+[36mschatsi_machine_learning_R_1  |[0m 267            management        57     10
+[36mschatsi_machine_learning_R_1  |[0m 268                    ai        93      2
+[36mschatsi_machine_learning_R_1  |[0m 269             perceived        55      9
+[36mschatsi_machine_learning_R_1  |[0m 270 production management        52     21
+[36mschatsi_machine_learning_R_1  |[0m 271                 trust       196      5
+[36mschatsi_machine_learning_R_1  |[0m 272            automation       121     10
+[36mschatsi_machine_learning_R_1  |[0m 273                 human        53      5
+[36mschatsi_machine_learning_R_1  |[0m 274                 trust       372      5
+[36mschatsi_machine_learning_R_1  |[0m 275            automation       123     10
+[36mschatsi_machine_learning_R_1  |[0m 276               control       169      7
+[36mschatsi_machine_learning_R_1  |[0m 277                   use        58      3
+[36mschatsi_machine_learning_R_1  |[0m 278                system        73      6
+[36mschatsi_machine_learning_R_1  |[0m 279             automatic       174      9
+[36mschatsi_machine_learning_R_1  |[0m 280            properties        85     10
+[36mschatsi_machine_learning_R_1  |[0m 281               display        58      7
+[36mschatsi_machine_learning_R_1  |[0m 282              variable        50      8
+[36mschatsi_machine_learning_R_1  |[0m 283                  pump       167      4
+[36mschatsi_machine_learning_R_1  |[0m 284                 pumps       157      5
+[36mschatsi_machine_learning_R_1  |[0m 285                 error       100      5
+[36mschatsi_machine_learning_R_1  |[0m 286        automatic pump        63     14
+[36mschatsi_machine_learning_R_1  |[0m 287         control error        56     13
+[36mschatsi_machine_learning_R_1  |[0m 288       automatic pumps        77     15
+[36mschatsi_machine_learning_R_1  |[0m 289               sorghum       106      7
+[36mschatsi_machine_learning_R_1  |[0m 290                 games        53      5
+[36mschatsi_machine_learning_R_1  |[0m 291                 group        83      5
+[36mschatsi_machine_learning_R_1  |[0m 292                    vc        55      2
+[36mschatsi_machine_learning_R_1  |[0m 293               farmers       176      7
+[36mschatsi_machine_learning_R_1  |[0m 294                  risk        61      4
+[36mschatsi_machine_learning_R_1  |[0m 295                 trust       161      5
+[36mschatsi_machine_learning_R_1  |[0m 296                  game        57      4
+[36mschatsi_machine_learning_R_1  |[0m 297                farmer        52      6
+[36mschatsi_machine_learning_R_1  |[0m 298                groups        64      6
+[36mschatsi_machine_learning_R_1  |[0m 299                  self        81      4
+[36mschatsi_machine_learning_R_1  |[0m 300               driving        90      7
+[36mschatsi_machine_learning_R_1  |[0m 301              vehicles        58      8
+[36mschatsi_machine_learning_R_1  |[0m 302               vehicle        99      7
+[36mschatsi_machine_learning_R_1  |[0m 303            components        52     10
+[36mschatsi_machine_learning_R_1  |[0m 304                  data        50      4
+[36mschatsi_machine_learning_R_1  |[0m 305                 trust       121      5
+[36mschatsi_machine_learning_R_1  |[0m 306          self driving        80     12
+[36mschatsi_machine_learning_R_1  |[0m 307       driving vehicle        52     15
+[36mschatsi_machine_learning_R_1  |[0m 308                 trust        98      5
+[36mschatsi_machine_learning_R_1  |[0m 309                 trust        77      5
+[36mschatsi_machine_learning_R_1  |[0m 310                agents        52      6
+[36mschatsi_machine_learning_R_1  |[0m 311              customer        82      8
+[36mschatsi_machine_learning_R_1  |[0m 312              business        63      8
+[36mschatsi_machine_learning_R_1  |[0m 313                 trust       160      5
+[36mschatsi_machine_learning_R_1  |[0m 314                   iot        89      3
+[36mschatsi_machine_learning_R_1  |[0m 315                 layer        56      5
+[36mschatsi_machine_learning_R_1  |[0m 316                access        60      6
+[36mschatsi_machine_learning_R_1  |[0m 317                 trust       130      5
+[36mschatsi_machine_learning_R_1  |[0m 318           information       108     11
+[36mschatsi_machine_learning_R_1  |[0m 319                  node        60      4
+[36mschatsi_machine_learning_R_1  |[0m 320                   trm       118      3
+[36mschatsi_machine_learning_R_1  |[0m 321              entities       132      8
+[36mschatsi_machine_learning_R_1  |[0m 322                  data        65      4
+[36mschatsi_machine_learning_R_1  |[0m 323                  high        52      4
+[36mschatsi_machine_learning_R_1  |[0m 324                 nodes       107      5
+[36mschatsi_machine_learning_R_1  |[0m 325                   e g        67      3
+[36mschatsi_machine_learning_R_1  |[0m 326                  data        58      4
+[36mschatsi_machine_learning_R_1  |[0m 327                 trust       102      5
+[36mschatsi_machine_learning_R_1  |[0m 328           uncertainty        80     11
+[36mschatsi_machine_learning_R_1  |[0m 329                system        55      6
+[36mschatsi_machine_learning_R_1  |[0m 330                   use        75      3
+[36mschatsi_machine_learning_R_1  |[0m 331            technology        60     10
+[36mschatsi_machine_learning_R_1  |[0m 332                  user       126      4
+[36mschatsi_machine_learning_R_1  |[0m 333          satisfaction       100     12
+[36mschatsi_machine_learning_R_1  |[0m 334            experience        88     10
+[36mschatsi_machine_learning_R_1  |[0m 335                 trust       111      5
+[36mschatsi_machine_learning_R_1  |[0m 336                    ai        96      2
+[36mschatsi_machine_learning_R_1  |[0m 337               enabled        57      7
+[36mschatsi_machine_learning_R_1  |[0m 338                 study        51      5
+[36mschatsi_machine_learning_R_1  |[0m 339               product        58      7
+[36mschatsi_machine_learning_R_1  |[0m 340               service        78      7
+[36mschatsi_machine_learning_R_1  |[0m 341             perceived        70      9
+[36mschatsi_machine_learning_R_1  |[0m 342           convenience        54     11
+[36mschatsi_machine_learning_R_1  |[0m 343     user satisfaction        51     17
+[36mschatsi_machine_learning_R_1  |[0m 344            ai enabled        56     10
+[36mschatsi_machine_learning_R_1  |[0m 345              reliance        74      8
+[36mschatsi_machine_learning_R_1  |[0m 346              decision       299      8
+[36mschatsi_machine_learning_R_1  |[0m 347                  task        53      4
+[36mschatsi_machine_learning_R_1  |[0m 348                advice        89      6
+[36mschatsi_machine_learning_R_1  |[0m 349          participants        61     12
+[36mschatsi_machine_learning_R_1  |[0m 350                   aid       216      3
+[36mschatsi_machine_learning_R_1  |[0m 351           performance        72     11
+[36mschatsi_machine_learning_R_1  |[0m 352                  rely        50      4
+[36mschatsi_machine_learning_R_1  |[0m 353           reliability        96     11
+[36mschatsi_machine_learning_R_1  |[0m 354                 trust        79      5
+[36mschatsi_machine_learning_R_1  |[0m 355                people        86      6
+[36mschatsi_machine_learning_R_1  |[0m 356          decision aid       194     12
+[36mschatsi_machine_learning_R_1  |[0m 357                 trust       240      5
+[36mschatsi_machine_learning_R_1  |[0m 358                  team        95      4
+[36mschatsi_machine_learning_R_1  |[0m 359          relationship        64     12
+[36mschatsi_machine_learning_R_1  |[0m 360                equity        54      6
+[36mschatsi_machine_learning_R_1  |[0m 361             different        53      9
+[36mschatsi_machine_learning_R_1  |[0m 362              trusting        79      8
+[36mschatsi_machine_learning_R_1  |[0m 363               beliefs       104      7
+[36mschatsi_machine_learning_R_1  |[0m 364                 trust        96      5
+[36mschatsi_machine_learning_R_1  |[0m 365                users’        80      6
+[36mschatsi_machine_learning_R_1  |[0m 366             perceived       123      9
+[36mschatsi_machine_learning_R_1  |[0m 367              decision        57      8
+[36mschatsi_machine_learning_R_1  |[0m 368                 users        80      5
+[36mschatsi_machine_learning_R_1  |[0m 369      trusting beliefs        71     16
+[36mschatsi_machine_learning_R_1  |[0m 370                 trust       260      5
+[36mschatsi_machine_learning_R_1  |[0m 371              decision        60      8
+[36mschatsi_machine_learning_R_1  |[0m 372          technologies        50     12
+[36mschatsi_machine_learning_R_1  |[0m 373                 based        59      5
+[36mschatsi_machine_learning_R_1  |[0m 374               reasons        77      7
+[36mschatsi_machine_learning_R_1  |[0m 375                reason        67      6
+[36mschatsi_machine_learning_R_1  |[0m 376                  user        50      4
+[36mschatsi_machine_learning_R_1  |[0m 377                   xai        73      3
+[36mschatsi_machine_learning_R_1  |[0m 378                 agent        90      5
+[36mschatsi_machine_learning_R_1  |[0m 379                 level       103      5
+[36mschatsi_machine_learning_R_1  |[0m 380           measurement        82     11
+[36mschatsi_machine_learning_R_1  |[0m 381                 trust       125      5
+[36mschatsi_machine_learning_R_1  |[0m 382              evidence        57      8
+[36mschatsi_machine_learning_R_1  |[0m 383                   • •        90      3
+[36mschatsi_machine_learning_R_1  |[0m 384  level of measurement        63     20
+[36mschatsi_machine_learning_R_1  |[0m 385                 cross        68      5
+[36mschatsi_machine_learning_R_1  |[0m 386                 check        55      5
+[36mschatsi_machine_learning_R_1  |[0m 387                  task        52      4
+[36mschatsi_machine_learning_R_1  |[0m 388                   las        81      3
+[36mschatsi_machine_learning_R_1  |[0m 389                   bas        62      3
+[36mschatsi_machine_learning_R_1  |[0m 390           cross check        55     11
+[36mschatsi_machine_learning_R_1  |[0m 391                 trust        51      5
+[36mschatsi_machine_learning_R_1  |[0m 392                 trust       116      5
+[36mschatsi_machine_learning_R_1  |[0m 393             knowledge       161      9
+[36mschatsi_machine_learning_R_1  |[0m 394            automation        98     10
+[36mschatsi_machine_learning_R_1  |[0m 395             automated        69      9
+[36mschatsi_machine_learning_R_1  |[0m 396                system       140      6
+[36mschatsi_machine_learning_R_1  |[0m 397          participants        64     12
+[36mschatsi_machine_learning_R_1  |[0m 398            capability        94     10
+[36mschatsi_machine_learning_R_1  |[0m 399           information        54     11
+[36mschatsi_machine_learning_R_1  |[0m 400                system        53      6
+[36mschatsi_machine_learning_R_1  |[0m 401                 trust        50      5
+[36mschatsi_machine_learning_R_1  |[0m 402            interfaces        59     10
+[36mschatsi_machine_learning_R_1  |[0m 403               vehicle        71      7
+[36mschatsi_machine_learning_R_1  |[0m 404          participants        59     12
+[36mschatsi_machine_learning_R_1  |[0m 405                 agent        86      5
+[36mschatsi_machine_learning_R_1  |[0m 406              teammate        58      8
+[36mschatsi_machine_learning_R_1  |[0m 407              research        70      8
+[36mschatsi_machine_learning_R_1  |[0m 408                 human       111      5
+[36mschatsi_machine_learning_R_1  |[0m 409                 trust        52      5
+[36mschatsi_machine_learning_R_1  |[0m 410           perceptions        57     11
+[36mschatsi_machine_learning_R_1  |[0m 411                  team        65      4
+[36mschatsi_machine_learning_R_1  |[0m 412           intelligent        88     11
+[36mschatsi_machine_learning_R_1  |[0m 413                   aat        75      3
+[36mschatsi_machine_learning_R_1  |[0m 414     intelligent agent        54     17
+[36mschatsi_machine_learning_R_1  |[0m 415                mobile        51      6
+[36mschatsi_machine_learning_R_1  |[0m 416                 trust       141      5
+[36mschatsi_machine_learning_R_1  |[0m 417                 agent        92      5
+[36mschatsi_machine_learning_R_1  |[0m 418                 model        51      5
+[36mschatsi_machine_learning_R_1  |[0m 419                  user        86      4
+[36mschatsi_machine_learning_R_1  |[0m 420                 trust        79      5
+[36mschatsi_machine_learning_R_1  |[0m 421                design        53      6
+[36mschatsi_machine_learning_R_1  |[0m 422              carebots        98      8
+[36mschatsi_machine_learning_R_1  |[0m 423                  care       188      4
+[36mschatsi_machine_learning_R_1  |[0m 424                robots        76      6
+[36mschatsi_machine_learning_R_1  |[0m 425                 human        85      5
+[36mschatsi_machine_learning_R_1  |[0m 426              decision        71      8
+[36mschatsi_machine_learning_R_1  |[0m 427                   aid       138      3
+[36mschatsi_machine_learning_R_1  |[0m 428                simple        62      6
+[36mschatsi_machine_learning_R_1  |[0m 429          participants        79     12
+[36mschatsi_machine_learning_R_1  |[0m 430                 group        80      5
+[36mschatsi_machine_learning_R_1  |[0m 431          decision aid        52     12
+[36mschatsi_machine_learning_R_1  |[0m 432             aid group        57      9
+[36mschatsi_machine_learning_R_1  |[0m 433               sensory        80      7
+[36mschatsi_machine_learning_R_1  |[0m 434            experience        83     10
+[36mschatsi_machine_learning_R_1  |[0m 435              research        84      8
+[36mschatsi_machine_learning_R_1  |[0m 436                   sbe       154      3
+[36mschatsi_machine_learning_R_1  |[0m 437               cluster        72      7
+[36mschatsi_machine_learning_R_1  |[0m 438               meaning        62      7
+[36mschatsi_machine_learning_R_1  |[0m 439                 human        95      5
+[36mschatsi_machine_learning_R_1  |[0m 440                  robo       134      4
+[36mschatsi_machine_learning_R_1  |[0m 441               advisor       157      7
+[36mschatsi_machine_learning_R_1  |[0m 442                 study        51      5
+[36mschatsi_machine_learning_R_1  |[0m 443                 trust       127      5
+[36mschatsi_machine_learning_R_1  |[0m 444           performance        57     11
+[36mschatsi_machine_learning_R_1  |[0m 445              advisors        69      8
+[36mschatsi_machine_learning_R_1  |[0m 446             expertise        76      9
+[36mschatsi_machine_learning_R_1  |[0m 447               service        57      7
+[36mschatsi_machine_learning_R_1  |[0m 448          robo advisor        78     12
+[36mschatsi_machine_learning_R_1  |[0m 449                    ai       164      2
+[36mschatsi_machine_learning_R_1  |[0m 450          explanations        56     12
+[36mschatsi_machine_learning_R_1  |[0m 451                 model        68      5
+[36mschatsi_machine_learning_R_1  |[0m NULL
+[36mschatsi_machine_learning_R_1  |[0m Warning messages:
+[36mschatsi_machine_learning_R_1  |[0m 1: `funs()` was deprecated in dplyr 0.8.0.
+[36mschatsi_machine_learning_R_1  |[0m Please use a list of either functions or lambdas: 
+[36mschatsi_machine_learning_R_1  |[0m 
+[36mschatsi_machine_learning_R_1  |[0m   # Simple named list: 
+[36mschatsi_machine_learning_R_1  |[0m   list(mean = mean, median = median)
+[36mschatsi_machine_learning_R_1  |[0m 
+[36mschatsi_machine_learning_R_1  |[0m   # Auto named with `tibble::lst()`: 
+[36mschatsi_machine_learning_R_1  |[0m   tibble::lst(mean, median)
+[36mschatsi_machine_learning_R_1  |[0m 
+[36mschatsi_machine_learning_R_1  |[0m   # Using lambdas
+[36mschatsi_machine_learning_R_1  |[0m   list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+[36mschatsi_machine_learning_R_1  |[0m This warning is displayed once every 8 hours.
+[36mschatsi_machine_learning_R_1  |[0m Call `lifecycle::last_lifecycle_warnings()` to see where this warning was generated. 
+[36mschatsi_machine_learning_R_1  |[0m 2: `mutate_each_()` was deprecated in dplyr 0.7.0.
+[36mschatsi_machine_learning_R_1  |[0m Please use `across()` instead.
+[36mschatsi_machine_learning_R_1  |[0m This warning is displayed once every 8 hours.
+[36mschatsi_machine_learning_R_1  |[0m Call `lifecycle::last_lifecycle_warnings()` to see where this warning was generated. 
+[36mschatsi-ml-r_schatsi_machine_learning_R_1 exited with code 0

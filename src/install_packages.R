@@ -1,0 +1,18 @@
+install.packages(c(
+  'tidytext',
+  'reshape2',
+  'RColorBrewer',
+  'udpipe',
+  'stringr',
+  'ggplot2',
+  'dplyr', 
+  'htmlwidgets',
+  'wordcloud2',
+  'tm',
+  'topicmodels',
+  'aws.s3',
+  'paws.application.integration',
+  'glue',
+  'ldatuning',
+  'Rmpfr',
+  'SemNetCleaner'), repos='https://cran.rstudio.com/')
