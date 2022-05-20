@@ -1,4 +1,4 @@
-# Base image 
+# Base image
 FROM r-base-tidyverse
 
 ## create directories
@@ -8,4 +8,4 @@ RUN mkdir -p /src
 COPY src .
 
 ## run the script
-CMD Rscript ./main.R 
+CMD Rscript ./main.R
